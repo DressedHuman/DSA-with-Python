@@ -12,4 +12,5 @@ def disk_usage(path):
     return total_size
 
 
-print(disk_usage(getcwd()))
+if __name__=='__main__':
+    print(disk_usage(getcwd()))
